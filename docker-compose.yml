@@ -1,0 +1,9 @@
+version: '3'
+services:
+  notebook:
+    build:
+      ./notebook-docker
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./results:/usr/src/results

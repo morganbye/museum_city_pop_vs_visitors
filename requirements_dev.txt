@@ -1,0 +1,6 @@
+black
+coverage
+hypothesis
+mock
+pytest
+pytest-cov
