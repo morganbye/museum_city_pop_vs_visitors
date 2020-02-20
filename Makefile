@@ -15,6 +15,10 @@ run:
 	@source $(venv_path)/bin/activate && \
 	docker-compose up
 
+run-notebook:
+	@source $(venv_path)/bin/activate && \
+	docker run -v /Users/morgan.bye/dev/museums/results:/app/notebook/results museums_notebook
+
 test:
 	@source $(venv_path)/bin/activate && \
 	pytest --cov=src

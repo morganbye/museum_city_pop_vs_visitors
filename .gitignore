@@ -113,7 +113,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-gig_core/.env
 .venv
 env/
 venv/
@@ -144,3 +143,6 @@ pg_data/
 
 # Virtualenv
 .venv
+
+# Results
+results/

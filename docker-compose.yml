@@ -6,4 +6,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./results:/usr/src/results
+      - results:/app/notebook/results
+
+volumes:
+  results:
